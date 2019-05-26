@@ -1,0 +1,21 @@
+{
+  "name": "paster",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongoose": "~4.2.7",
+    "morgan": "~1.6.1",
+    "body-parser": "~1.14.1",
+    "bootstrap": "~3.3.6",
+    "ejs": "~2.3.4",
+    "validator": "~4.3.0",
+    "xss-filters": "~1.2.6"
+  }
+}

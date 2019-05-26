@@ -1,0 +1,11 @@
+<% include header %>
+<div class="container">
+
+<ul>
+<% content.forEach(function(item) { %>
+   <li><a href='show/<%= item.name %>'><%= item.name %></a></li>
+
+<% }); %>
+</ul>
+</div>
+<% include footer %>
